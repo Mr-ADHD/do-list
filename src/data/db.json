@@ -1,0 +1,25 @@
+{
+  "tasks": [
+    {
+      "title": "Do math problems",
+      "description": "problems of lesson 1 and 2 and 3",
+      "priority": "Important",
+      "isDone": true,
+      "id": 1
+    },
+    {
+      "title": "Cook food",
+      "description": "cook some dinner and also lunch for tommorow",
+      "priority": "",
+      "isDone": false,
+      "id": 2
+    },
+    {
+      "title": "Exercise football",
+      "description": "i need 2h exercise to get ready for the final match",
+      "priority": "Urgent",
+      "isDone": false,
+      "id": 3
+    }
+  ]
+}

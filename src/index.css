@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+body{
+  font-family: 'Roboto', sans-serif;
+
+}
+
+button{
+  cursor: pointer;
+}
+
+.Add-Task-Btn {
+  margin-top: 5px;
+  margin-bottom: 50px;
+  padding: 10px;
+}
+
+.Task-Box{
+  
+  border-bottom: 1px solid gainsboro;
+  margin: auto;
+  width: 700px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+
+}
+.Task-Title{
+  margin-right: 5px;
+}
+
+.taskdesc{
+  margin-right: 30px;
+  font-size: large;
+}
+
+.Task-Btn{
+  
+  margin-left: 5px;
+}
+
+.Task-Box:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.1); 
+}
+
+.Task-Info-Box{
+  margin-top: 20px;
+}
+
+
+
+.Task-Title-Input{
+  margin-bottom: 20px;
+  padding: 7px 35px;
+  background-color: rgba(240, 239, 239, 0.547);
+  border: solid 0.5px rgba(58, 57, 57, 0.6);
+  border-bottom: solid 1.5px rgba(58, 57, 57, 0.7);
+  border-radius: 2px;
+  text-align: center;
+}
+
+.Task-Desc-Label{
+  margin-bottom: 5px;
+}
+
+.Task-Desc-Textarea{
+  resize: none;
+  background-color: rgba(240, 239, 239, 0.547);
+  border: solid 0.5px rgba(58, 57, 57, 0.6);
+  border-bottom: solid 1.5px rgba(58, 57, 57, 0.7);
+  border-radius: 2px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.Priority-Title{
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: larger;
+}
+
+.Priority-Label{
+  margin-bottom: 5px;
+}
+
+.Priority-Input{
+  margin-bottom: 10px;
+}
+
+.Nav-Btn{
+  text-align: center;
+  padding: 3px;
+  margin-right: 20px;
+  margin-bottom: 30px; 
+  text-decoration: none;
+  color: rgb(175, 45, 45);
+  
+}
+
+.Nav-Btn-Box{
+  margin-left: auto;
+}
+
+.Nav-Label{
+  font-size: large;
+  color: rgb(175, 45, 45);
+}
+
+.Nav-Box{
+  border-bottom: 1px solid gainsboro;
+  display: flex;
+  margin: auto;
+  width: 750px;
+  padding: 10px; 
+  margin-bottom: 20px;
+}
+
+.List-Btn-Box{
+  display: flex;
+}
+
+.Priority-Label-Urgent{
+  
+  color: red;
+
+
+}
+
+.Priority-Label-Important{
+  
+  color: blue;
+
+
+}
+
+
+.Task-Tools-Box{
+  margin-left: auto ;
+}
+
+.Add-Task-Box{
+  
+  
+  align-items: center;
+  text-align: center;
+}
+
+.Class-Sumbit-Btn{
+  background-color:#00C42E;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 15px;
+  color: white;
+  font-size: larger;
+  
+}
+
+.Priority-Radio-Box{
+  margin-bottom: 10px;
+}
+
+.Class-Done-Btn{
+  padding: 3px 5px;
+  margin-left: 3px;
+  background-color: aqua;
+  border: 0.4px solid rgba(52, 52, 52, 0.5);
+  border-radius: 10px;
+  
+}
+
+.Class-Remove-Btn{
+  padding: 3px 5px; 
+  margin-left: 5px;
+  background-color: rgba(243, 76, 76, 0.714);
+  border: 0.4px solid rgba(52, 52, 52, 0.5);
+  border-radius: 10px;
+}
+
+.Task-Box-Done{
+  border-bottom: 1px solid gainsboro;
+  margin: auto;
+  width: 700px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  text-decoration: line-through;
+
+  
+}
+
